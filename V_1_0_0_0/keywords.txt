@@ -1,0 +1,92 @@
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+Cmd_MCP39F511	KEYWORD1
+Io_MCP39F511	KEYWORD1
+Isr_MCP39F511	KEYWORD1
+Uart_MCP39F511	KEYWORD1
+
+#######################################
+# UART CMD
+#######################################
+
+EnableDisableIdeMonitor KEYWORD2
+SetBaudRateUart KEYWORD2
+
+#######################################
+
+#######################################
+#	MCP39F511 CMD
+#######################################
+MCP39F511_SetControlLine    KEYWORD2
+MCP39F511_ResetLine KEYWORD2
+MCP39F511_MclrLine  KEYWORD2
+
+CalcPowerFactor KEYWORD2
+
+MCP39F511_ReadStatusAndVersion  KEYWORD2
+MCP39F511_ReadSystemConfiguration   KEYWORD2
+MCP39F511_ReadEventStatus   KEYWORD2
+MCP39F511_ReadRmsVoltageRaw KEYWORD2
+MCP39F511_ReadLineFrequencyRaw  KEYWORD2
+MCP39F511_ReadSarAdc    KEYWORD2
+MCP39F511_ReadPowerFactorRaw    KEYWORD2
+MCP39F511_ReadRmsCurrentRaw KEYWORD2
+MCP39F511_ReadActivePowerRaw    KEYWORD2
+MCP39F511_ReadReactivePowerRaw  KEYWORD2
+MCP39F511_ReadApparentPowerRaw  KEYWORD2
+MCP39F511_ReadImportedActiveEnergy  KEYWORD2
+MCP39F511_ReadExportedActiveEnergy  KEYWORD2
+MCP39F511_ReadImportedReactiveEnergy    KEYWORD2
+MCP39F511_ReadExportedReactiveEnergy    KEYWORD2
+MCP39F511_ReadAllRawData    KEYWORD2
+MCP39F511_ReadAllEnergy KEYWORD2
+MCP39F511_ReadMinimumRecord_1   KEYWORD2
+MCP39F511_ReadMinimumRecord_2   KEYWORD2
+MCP39F511_ReadMaximumRecord_1   KEYWORD2
+MCP39F511_ReadMaximumRecord_2   KEYWORD2
+
+MCP39F511_RetrieveMicrochipFactoryValues    KEYWORD2
+MCP39F511_RetrieveFT1346M_FactoryParameters KEYWORD2
+
+MCP39F511_WriteGainCurrentRms   KEYWORD2
+MCP39F511_WriteGainVoltageRms   KEYWORD2
+MCP39F511_WriteGainReactivePower    KEYWORD2
+MCP39F511_WriteGainReactivePower    KEYWORD2
+MCP39F511_WriteOffsetCurrentRms KEYWORD2
+MCP39F511_WriteOffsetActivePower    KEYWORD2
+MCP39F511_WriteOffsetReactivePower  KEYWORD2
+MCP39F511_WriteDcOffsetCurrent  KEYWORD2
+MCP39F511_WritePhaseCompensation    KEYWORD2
+MCP39F511_WriteApparentPowerDivisor KEYWORD2
+MCP39F511_WriteSystemConfiguration  KEYWORD2
+MCP39F511_WriteEventConfiguration   KEYWORD2
+MCP39F511_WriteRange    KEYWORD2
+MCP39F511_WriteCalibrationCurrent   KEYWORD2
+MCP39F511_WriteCalibrationVoltage   KEYWORD2
+MCP39F511_WriteCalibrationActivePower   KEYWORD2
+MCP39F511_WriteCalibrationReactivePower KEYWORD2
+MCP39F511_WriteLineFrequencyReference   KEYWORD2
+MCP39F511_WriteAccumulatorItervalParameter  KEYWORD2
+MCP39F511_WriteVoltageSagLimit  KEYWORD2
+MCP39F511_WriteVoltageSurgeLimit    KEYWORD2
+MCP39F511_WriteOverCurrentLimit KEYWORD2
+MCP39F511_WriteOverPowerLimit   KEYWORD2
+MCP39F511_WriteTempCompensationFrequency    KEYWORD2
+MCP39F511_WriteTempCompensationCurrent  KEYWORD2
+MCP39F511_WriteTempCompensationPower    KEYWORD2
+MCP39F511_WriteAmbientTempReference KEYWORD2
+MCP39F511_WritePwmPeriod    KEYWORD2
+MCP39F511_WritePwmDutyCycle KEYWORD2
+MCP39F511_WriteMinMaxPointer_1  KEYWORD2
+MCP39F511_WriteMinMaxPointer_2  KEYWORD2
+MCP39F511_ResetMinMaxPointer_1  KEYWORD2
+MCP39F511_ResetMinMaxPointer_2  KEYWORD2
+MCP39F511_WriteOverTemperatureLimit KEYWORD2
+MCP39F511_WriteEnergyControl    KEYWORD2
+MCP39F511_WritePwmControl   KEYWORD2
+MCP39F511_WriteNoLoadThreshold  KEYWORD2
+MCP39F511_FreezeFlashData   KEYWORD2
+
+#######################################
